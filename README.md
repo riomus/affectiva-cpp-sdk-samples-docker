@@ -9,3 +9,5 @@ In order to use fully the samples of SDK, xhost is required in order to let dock
 ./opencv-webcam-demo/opencv-webcam-demo -d /opt/affdex-sdk/data
 
 ```
+
+Image is also present at docker hub: [riomus/affectiva-cpp-sdk-samples-docker](https://hub.docker.com/r/riomus/affectiva-cpp-sdk-samples-docker)
