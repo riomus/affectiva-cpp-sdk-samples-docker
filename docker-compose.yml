@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  affectiva_samples_container:
+    build: ./image
+    volumes: 
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    privileged: true
+    environment:
+      - DISPLAY=:0
