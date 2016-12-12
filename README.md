@@ -6,6 +6,6 @@ In order to use fully the samples of SDK, xhost is required in order to let dock
 ./run.sh
 
 # in docker
+./opencv-webcam-demo/opencv-webcam-demo -d /opt/affdex-sdk/data
 
-cd opencv-webcam-demo
-./opencv-webcam-demo -d /opt/affdex-sdk/data
+```
